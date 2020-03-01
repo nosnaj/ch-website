@@ -23,6 +23,7 @@ import Image12 from '../images/gallery/i12.jpg';
 import Image13 from '../images/gallery/i13.jpg';
 
 import styles from './index.module.css';
+import './index.css';
 
 const IndexPage = () => (
   <>
@@ -131,8 +132,12 @@ const IndexPage = () => (
       </a>
     </div>
     <div style={{ display: 'flex', justifyContent: 'space-between', padding: '24px 8%' }}>
-      <p style={{ margin: 0, fontFamily: 'Nunito', fontSize: '16px', lineHeight: '24px', color: '#4f4f4f' }}>{`More contents will be added soon.`} </p>
-      <p style={{ margin: 0, fontFamily: 'Nunito', fontSize: '16px', lineHeight: '24px', color: '#4f4f4f' }}>{`copyright@${new Date().getFullYear()} - codehumans`} </p>
+      <p style={{ margin: 0, fontFamily: 'Nunito', fontSize: '16px', lineHeight: '24px', color: '#4f4f4f' }}>
+        {`More contents will be added soon.`}{' '}
+      </p>
+      <p style={{ margin: 0, fontFamily: 'Nunito', fontSize: '16px', lineHeight: '24px', color: '#4f4f4f' }}>
+        {`copyright@${new Date().getFullYear()} - codehumans`}{' '}
+      </p>
     </div>
   </>
 );
