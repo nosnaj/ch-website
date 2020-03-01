@@ -122,7 +122,7 @@ const IndexPage = () => (
         <img src={Image11} style={{ width: '100%' }} />
       </div>
     </div>
-    <div style={{ backgroundColor: '#93ECCD', padding: '24px 16%', display: 'flex', justifyContent: 'space-between', alignContent: 'center' }}>
+    <div style={{ backgroundColor: '#93ECCD', padding: '24px 8%', display: 'flex', justifyContent: 'space-between', alignContent: 'center' }}>
       <p style={{ fontFamily: 'Nunito', fontSize: '16px', lineHeight: '28px', textAlign: 'justify', margin: 0, color: 'white', fontWeight: 700 }}>
         Check us out in Instagram and stay tune for many more exciting activities we’ll be having.
       </p>
@@ -130,7 +130,8 @@ const IndexPage = () => (
         <img src={InstagramLogo} style={{ margin: 0, width: '32px' }} />
       </a>
     </div>
-    <div style={{ padding: '24px 16%' }}>
+    <div style={{ display: 'flex', justifyContent: 'space-between', padding: '24px 8%' }}>
+      <p style={{ margin: 0, fontFamily: 'Nunito', fontSize: '16px', lineHeight: '24px', color: '#4f4f4f' }}>{`More contents will be added soon.`} </p>
       <p style={{ margin: 0, fontFamily: 'Nunito', fontSize: '16px', lineHeight: '24px', color: '#4f4f4f' }}>{`copyright@${new Date().getFullYear()} - codehumans`} </p>
     </div>
   </>
