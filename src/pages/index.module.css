@@ -9,9 +9,25 @@
   margin-top: -80px;
 }
 
+.closeForMobile {
+  display: none;
+}
+
+.openForMobile {
+  display: block;
+}
+
 @media (min-width: 992px) {
   .header {
     height: 100vh;
+  }
+
+  .closeForMobile {
+    display: block;
+  }
+
+  .openForMobile {
+    display: none;
   }
 
   .contentContainer {
